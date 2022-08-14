@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function ({inputStyle,formStyle,labelStyle,buttonStyle}) {
+export default function SearchBar({inputStyle,formStyle,labelStyle,buttonStyle}) {
   return (
     <form className={`${formStyle}`}>   
         <label for="default-search" className={`mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300 ${labelStyle}`}>Search</label>
