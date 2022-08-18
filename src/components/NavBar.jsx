@@ -9,8 +9,8 @@ function NavBar(props) {
                 <img src={logo} alt="logo" className='h-10 w-10' />
                 <div className='mt-3'>
                     <span className='text-white text-lg font-bold'>Emergency</span>
-                    <span className='border-solid border-r-2 m-3 h-7 object-top'></span>
-                    <span className='text-white font-semibold'>Help Center</span>
+                    <span className='border-solid border-r-2 m-3 h-7 object-top md:visible lg:visible xl:visible sm:hidden'></span>
+                    <span className='text-white font-semibold sm:hidden md:visible'>Help Center</span>
                 </div>
             </div>
 
